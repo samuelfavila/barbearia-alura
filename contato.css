@@ -1,0 +1,180 @@
+header {
+	background-color: #bbbbbb;
+	padding: 20px 0;
+}
+
+#nav-box {
+	/* width: 98%; */
+	width: 940px;
+	position: relative;
+	margin: 0 auto;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav {
+	position: absolute;
+	/* top: 50%;
+	right: 10%; */
+	top: 110px;
+	right: 0;
+}
+
+nav a {
+	color: #000;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-style: 22px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #c78c19;
+	text-decoration: underline;
+}
+
+footer {
+	background: url("img/bg.jpg");
+	text-align: center;
+	padding: 40px 0;
+}
+
+.copyright {
+	color: white;
+	font-size: 13px;
+	margin-top: 20px;
+}
+
+main {
+	width: 940px;
+	margin: 0 auto;
+}
+
+form {
+	margin: 40px 0;
+}
+
+form label,
+form legend {
+	display: block;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+.input-padrao {
+	display: block;
+	margin-bottom: 10px;
+	padding: 10px 25px;
+	width: 50%;
+}
+
+.checkbox {
+	margin: 20px 0;
+}
+
+.submit-button {
+	width: 40%;
+	padding: 15px 0;
+	background-color: orange;
+	color: white;
+	font-weight: bold;
+	font-size: 19px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+.submit-button:hover {
+	background: darkorange;
+	transform: scale(1.2);
+	/* transform: rotate(-70deg); */
+}
+
+table {
+	margin: 20px 0 40px;
+}
+
+thead {
+	background: #555;
+	color: white;
+	font-weight: bold;
+}
+
+td,
+th {
+	border: 1px solid #000;
+	padding: 15px 8px;
+}
+/* #mensagem {
+	width: 50%;
+	padding: 15px 20px;
+} */
+
+/* #selecionar-contato {
+	font-size: 18px;
+	padding: 10px 0;
+}
+
+#selecionar-contato p {
+	padding-top: 20px;
+} */
+
+/* #selecionar-contato input {
+	display: inline;
+	margin: 0;
+	width: 2%;
+}
+
+#selecionar-contato label {
+	display: inline;
+	font-size: 18px;
+}
+
+#selecionar-horario {
+	padding: 10px 0;
+}
+
+#selecionar-horario label {
+	font-size: 18px;
+}
+
+#checkbox {
+	padding: 10px 0;
+}
+
+#checkbox label {
+	display: inline;
+	font-size: 15px;
+} */
+
+/* #ativa-novidades {
+	display: inline;
+	width: 1.2%;
+	margin: auto;
+} */
+
+/* #submit-button {
+	color: white;
+	background-color: darkorange;
+	width: 25%;
+	margin: 0;
+	border-color: darkorange;
+	border-radius: 7%;
+	font-size: 20px;
+} */
+/* 
+#tabela {
+	padding: 20px 0;
+}
+
+thead {
+	background-color: #bbbbbb;
+}
+
+tbody {
+	text-align: center;
+} */
