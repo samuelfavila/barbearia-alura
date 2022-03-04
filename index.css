@@ -1,3 +1,77 @@
+header {
+	background-color: #bbbbbb;
+	padding: 20px 0;
+}
+
+.nav-box {
+	width: 940px;
+	position: relative;
+	margin: 0 auto;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav {
+	position: absolute;
+	top: 110px;
+	right: 0;
+}
+
+nav a {
+	color: #000;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-style: 22px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #c78c19;
+	text-decoration: underline;
+}
+
+main {
+	width: 940px;
+	margin: 0 auto;
+}
+
+.banner {
+	width: 100%;
+}
+
+.titulo-principal {
+	text-align: center;
+	font-size: 2em;
+	margin: 0 0 1em;
+	clear: left;
+}
+
+.principal p {
+	margin: 0 0 1em;
+}
+
+.principal strong {
+	font-weight: bold;
+}
+
+.principal em {
+	font-style: italic;
+}
+
+.utensilios {
+	width: 120px;
+	float: left;
+	margin: 0 20px 20px 0;
+}
+
+.img-beneficios {
+	width: 60%;
+}
+/* CSS Antigo 
+
 .titulo-principal {
 	padding-left: 20px;
 	font-size: 30px;
@@ -9,7 +83,6 @@
 }
 
 #main {
-	/* margin: 5px; */
 	padding: 30px;
 	background-color: #cccccc;
 }
@@ -40,7 +113,7 @@ em strong {
 	color: red;
 }
 
-ul {
+#beneficios ul {
 	display: inline-block;
 	vertical-align: top;
 	width: 20%;
@@ -53,10 +126,21 @@ ul {
 
 #beneficios {
 	background: white;
-	/* margin: 5px; */
 	padding: 20px;
 }
 
 #img-beneficios {
 	width: 50%;
+} */
+
+.copyright {
+	color: white;
+	font-size: 13px;
+	margin-top: 20px;
+}
+
+footer {
+	background: url("img/bg.jpg");
+	text-align: center;
+	padding: 40px 0;
 }
