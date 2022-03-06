@@ -57,6 +57,8 @@ main {
 	font-size: 2em;
 	margin: 0 0 1em;
 	clear: left;
+	text-shadow: 2px 2px #888888;
+	/* color: rgba(0,0,0, 0.3); */
 }
 
 .principal p {
@@ -95,6 +97,7 @@ main {
 .beneficios{
 	padding: 3em 0;
 	background-color: #888888;
+	/* box-shadow: inset 0 0 30px #FF0000; */
 }
 .beneficios-conteudo {
 	width: 640px;
@@ -121,6 +124,14 @@ main {
 
 .img-beneficios {
 	width: 60%;
+	opacity: 1;
+	transition: 400ms;
+	box-shadow: 10px 10px 10px 0px #000000;
+	/* box-shadow:-10px -10px yellow, -20px 20px rgba(255, 0, 0, 0.5); */
+}
+
+.img-beneficios:hover{
+	opacity: 0.3;
 }
 
 .video {
@@ -201,4 +212,54 @@ footer {
 	background: url("img/bg.jpg");
 	text-align: center;
 	padding: 40px 0;
+}
+
+/* main > p { seleciona primeiro herdeiro direto
+	background: red;
+}
+
+img + p { seleciona primeiro p apos img
+	background: blue;
+}
+
+img ~ p{ seleciona todos os p apos img
+	background: yellow;
+}
+
+.principal p:not(#missao){ seleciona todos menos #missao
+	background: orange;
+} 
+
+calc()
+*/
+
+@media screen and (max-width: 480px){
+	.nav-box, .principal, .beneficios-conteudo, .mapa-conteudo, .video{
+		width: auto;
+	}
+
+	h1 {
+		text-align: center;
+	}
+
+	nav{
+		position: static;
+		text-align: center;
+	}
+
+	.principal p{
+		margin: 0 0.8em;
+	}
+
+	.lista-beneficios, .img-beneficios {
+		width: 100%
+	}
+
+	.beneficios{
+		text-align: center;
+	}
+
+	.itens{
+		margin: 0.5em 0;
+	}
 }
