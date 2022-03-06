@@ -27,7 +27,7 @@ nav a {
 	color: #000;
 	text-transform: uppercase;
 	font-weight: bold;
-	font-style: 22px;
+	font-size: 22px;
 	text-decoration: none;
 }
 
@@ -67,16 +67,16 @@ nav a:hover {
 }
 
 .produtos h2 {
-	font-size: 30px;
+	font-size: 2em;
 	font-weight: bold;
 }
 
 .produto-descriçao {
-	font-size: 18px;
+	font-size: 1em;
 }
 
 .produto-preço {
-	font-size: 22px;
+	font-size: 1.5em;
 	font-weight: bold;
 	margin-top: 10px;
 }
@@ -107,4 +107,29 @@ footer {
 	color: white;
 	font-size: 13px;
 	margin-top: 20px;
+}
+
+@media screen and (max-width: 480px){
+	#nav-box, .produtos{
+		width: auto;
+	}
+
+	h1 {
+		text-align: center;
+	}
+
+	nav{
+		position: static;
+		text-align: center;
+	}
+
+	.produtos li{
+		display: block;
+		width: 80%;
+		margin: 20px auto;
+	}
+
+	.img-produto{
+		width: 100%;
+	}
 }

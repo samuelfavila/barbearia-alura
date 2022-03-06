@@ -4,7 +4,6 @@ header {
 }
 
 .nav-box {
-	/* width: 98%; */
 	width: 940px;
 	position: relative;
 	margin: 0 auto;
@@ -17,8 +16,6 @@ nav li {
 
 nav {
 	position: absolute;
-	/* top: 50%;
-	right: 10%; */
 	top: 110px;
 	right: 0;
 }
@@ -36,13 +33,10 @@ nav a:hover {
 	text-decoration: underline;
 }
 
-main {
+form {
 	width: 940px;
 	margin: 0 auto;
-}
-
-form {
-	margin: 40px 0;
+	padding-top: 10px;
 }
 
 form label,
@@ -112,18 +106,18 @@ footer {
 /* #mensagem {
 	width: 50%;
 	padding: 15px 20px;
-} */
+}
 
-/* #selecionar-contato {
+#selecionar-contato {
 	font-size: 18px;
 	padding: 10px 0;
 }
 
 #selecionar-contato p {
 	padding-top: 20px;
-} */
+}
 
-/* #selecionar-contato input {
+#selecionar-contato input {
 	display: inline;
 	margin: 0;
 	width: 2%;
@@ -149,15 +143,15 @@ footer {
 #checkbox label {
 	display: inline;
 	font-size: 15px;
-} */
+}
 
-/* #ativa-novidades {
+#ativa-novidades {
 	display: inline;
 	width: 1.2%;
 	margin: auto;
-} */
+}
 
-/* #submit-button {
+#submit-button {
 	color: white;
 	background-color: darkorange;
 	width: 25%;
@@ -165,8 +159,8 @@ footer {
 	border-color: darkorange;
 	border-radius: 7%;
 	font-size: 20px;
-} */
-/* 
+}
+
 #tabela {
 	padding: 20px 0;
 }
@@ -178,3 +172,22 @@ thead {
 tbody {
 	text-align: center;
 } */
+
+@media screen and (max-width: 480px){
+	.nav-box, form{
+		width: auto;
+	}
+
+	h1 {
+		text-align: center;
+	}
+
+	nav{
+		position: static;
+		text-align: center;
+	}
+
+	form{
+		padding: 10px 20px;
+	}
+}
