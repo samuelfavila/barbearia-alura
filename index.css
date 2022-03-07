@@ -28,17 +28,13 @@ nav a {
 	color: #000;
 	text-transform: uppercase;
 	font-weight: bold;
-	font-style: 22px;
+	font-size: 1.5em;
 	text-decoration: none;
 }
 
 nav a:hover {
 	color: #c78c19;
 	text-decoration: underline;
-}
-
-main {
-	
 }
 
 .banner {
@@ -204,7 +200,7 @@ em strong {
 
 .copyright {
 	color: white;
-	font-size: 13px;
+	font-size: 0.8em;
 	margin-top: 20px;
 }
 
